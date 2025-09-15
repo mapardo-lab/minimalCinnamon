@@ -17,7 +17,7 @@ Three key findings emerged from the analysis:
 
 # Reproducibility
 
-Create a conda environment (conda version 25.1.1)
+Create an environment with conda (version 25.1.1)
 
 ```
 conda env create -f environtment.yaml
@@ -26,7 +26,7 @@ conda activate cinnamon-classifier
 
 # Create HTML and PDF files
 
-Running these commands html and pdf file will be created (quarto version 1.8.24)
+Quarto version 1.8.24
 
 ```
 quarto render minimalCinnamon.ipynb --to html
